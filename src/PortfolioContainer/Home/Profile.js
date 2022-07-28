@@ -1,5 +1,5 @@
-import React from "react";
-import Typical from "react-typical";
+import React from 'react';
+import Typical from 'react-typical';
 
 export default function Profile() {
   return (
@@ -24,38 +24,47 @@ export default function Profile() {
 
           <div className="profile-details-name">
             <span className="primary-text">
-              {" "}
-              Hello, I'M{" "}
+              {' '}
+              Hello, I'M{' '}
               <span className="highlighted-text">Mohamed Rishal</span>
             </span>
           </div>
           <div className="profile-details-role">
             <span className="primary-text">
-              {" "}
+              {' '}
               <h1>
-                {" "}
+                {' '}
                 <Typical
                   loop={Infinity}
                   steps={[
-                    "React.JS Developer 🧑‍💻",
+                    'React.JS Developer ',
                     1500,
-                    "Web Application Developer💻",
+
+                    'Web Application Developer💻',
                     1500,
-                    "Front-End Developer🖥",
+                    'Front-End Developer🖥',
                     1500,
                   ]}
                 />
-                </h1>
+              </h1>
               <span className="profile-role-tagline">
                 Knack of building application with Front and Back End operation.
               </span>
             </span>
           </div>
-        </div>
+        <div className="profile-option">
+        <button className="btn primary-btn">
+          {""}
+          Hire Me{" "}
+          </button>
+          <a href=" " download=" " >
+            <button className="btn highlighted-btn">Get Resume
+            </button>
+            </a>
+            </div>
       </div>
+    </div>
     </div>
   );
 }
-
-
-
+  
