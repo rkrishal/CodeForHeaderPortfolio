@@ -57,7 +57,7 @@ export default function Profile() {
           {""}
           Hire Me{" "}
           </button>
-          <a href=" " download=" " >
+          <a href="https://cdn.jsdelivr.net/gh/rkrishal/RK-Portfolio@main/asset/M_Mohamed_Rishal__CV_-2.pdf" download="Mohamed Rishal.pdf" >
             <button className="btn highlighted-btn">Get Resume
             </button>
             </a>
