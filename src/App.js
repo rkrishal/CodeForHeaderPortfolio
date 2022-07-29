@@ -1,13 +1,13 @@
 import React from "react";
 import "./style.css";
 import "./App.css";
-import Profile from "./PortfolioContainer/Home/Profile";
-//import Footer from "./PortfolioContainer/Home/Footer";
+import Home from './PortfolioContainer/Home/Home';
 
  function App() {
   return (
     <div className='App'>
-      <Profile />
+      <Home />
+      
     </div>
   );
 }
