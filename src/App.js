@@ -1,11 +1,14 @@
 import React from "react";
 import "./style.css";
-import Profile from "./PortfolioContainer/Home/Profile"
+import "./App.css";
+import Profile from "./PortfolioContainer/Home/Profile";
+//import Footer from "./PortfolioContainer/Home/Footer";
 
-export default function App() {
+ function App() {
   return (
     <div className='App'>
       <Profile />
     </div>
   );
 }
+export default App;
